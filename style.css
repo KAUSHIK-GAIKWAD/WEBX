@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(rgba(2, 2, 2, 0.75), rgba(0,0,0,0.75)), 
+    url(the-hogwarts-library-yg9j88te8ene3d7g.jpg); 
+    background-size: 100%; 
+    background-position: center;
+    color:white;
+    
+    
+}
+h1{
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: "Algerian";
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+.main-title {
+    text-align: center;
+    font-family: "Algerian", serif;
+    font-size: 72px;              /* BIG NAME */
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-shadow: 
+        3px 3px 10px rgba(0, 0, 0, 0.8),
+        0 0 20px rgba(255, 215, 0, 0.6);
+}
+
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+ padding: 20px;
+ color: white;
+ border: 1px solid white;
+box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+background: rgba(30, 41, 59, 0.75);
+ border-collapse: collapse;
+ border-radius: 10px;
+ width: 75%;
+}
+
+th,td,tr{
+    padding:  15px;
+    color: white;
+    border: 1px solid white;
+    align-items: center;
+
+}
+.available {
+    color: #00ff7f;
+    font-weight: bold;
+}
+
+.not-available {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 25px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    background: #111;
+}
+
+.nav-btn {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px 35px;
+    background: #007bff;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav-btn:hover {
+    background: #0056b3;
+}
+
+
+
+
